@@ -44,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: matrxi/python-helloworld:latest
+          tags: ${{ secrets.DOCK_HUB_USERNAME }}/python-helloworld:latest
