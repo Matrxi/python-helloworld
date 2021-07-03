@@ -1,4 +1,2 @@
 # python-helloworld
-Test repo for github action practice 
-
-test
+Test repo for github action practice
