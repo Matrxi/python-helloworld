@@ -40,4 +40,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ secrets.DOCK_HUB_USERNAME }}/python-helloworld:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-helloworld:latest
